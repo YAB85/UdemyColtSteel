@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+    background: pink;
+}
+
+.done {
+    color: grey;
+    text-decoration: line-through;
+}
+
+img {
+    width: 400px;
+}

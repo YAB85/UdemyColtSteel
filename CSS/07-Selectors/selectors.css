@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #151b29; */
+}
+
+section {
+	width: 80%;
+	height: 600px;
+	background-color: red;
+	background-image: url("../07-Selectors/img/william-daigneault-GAF48XT3yn8-unsplash.jpg") ;
+	background-size: cover;
+	background-position: bottom;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+/* .btn {
+	background: none;
+	color: #ffa260;
+	border: 2px solid;
+	padding: 1em 2em;
+	font-size: 2em;
+	transition: all .25s;
+}
+
+.btn:hover {
+	border-color: #f1ff5c;
+	color: white;
+	box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+	transform: translateY(-0.25em);
+	cursor: pointer;
+} */
+
+/* body{ 
+	background: linear-gradient(#CD5C5C, #ADD8E6);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	letter-spacing: 2rem;
+	background: linear-gradient(45deg, #8da8d4 33%, #db8a54 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+	display: table;
+	margin: 20px auto;
+	padding: 20px auto;
+} */
+/*Element*/
+/* ul {
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;
+}
+
+li {
+	color: POWDERBLUE;
+	text-decoration: none;
+	
+}
+
+li a {
+	color: red;
+	text-decoration: none;
+} */
+
+/* Adjacent Selector */
+
+/* h4 + ul {
+	border: 4px solid red;
+} */
+
+/* Attribute Selector */
+
+/* a[href = "http://www.google.com"]  {
+	background: blue;
+} */
+
+/* ntn of type */
+
+/* li:nth-of-type(3) {
+	background: purple;
+} */

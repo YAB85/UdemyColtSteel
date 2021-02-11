@@ -1,0 +1,9 @@
+body {
+    max-width: 1600px;
+    min-width: 460px;
+    background: peachpuff;
+}
+
+.change-h1 {
+    color: pink;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   max-width: 2000px;
+   max-height: 700px;
+   background: darkcyan;
+}
+
+.img {
+    
+    background: url(./img/sport1.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    /* filter:blur(2px); */
+}
+
+.text {
+    color: black;
+    font-weight: bold;
+
+}
+
+.winner {
+    color: green;
+}
