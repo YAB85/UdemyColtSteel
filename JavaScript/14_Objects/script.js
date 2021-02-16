@@ -48,7 +48,6 @@ console.log(person); */
 
 someObject.friends[0].name = "John"; */
 
-
 /*********Movies Database Exercise */
 /* var movies = [
     {title: "In Bruges", 
@@ -86,7 +85,7 @@ function buildString (movie) {
   } */
 
 /********Adding Methods to Objects */
- /* var obj = {
+/* var obj = {
      name: "Chick",
      age: 45,
      isCool: false,
@@ -121,3 +120,23 @@ comments.printer = function () {
   }
 
  */
+
+const restaurant = {
+  name: "Ichiran Ramen",
+  address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+  city: "Brooklyn",
+  state: "NY",
+  zipcode: "11206",
+};
+
+//YOUR CODE GOES DOWN HERE:
+const fullAddress =
+  restaurant.address +
+  ", " +
+  restaurant.city +
+  ", " +
+  restaurant.state +
+  " " +
+  restaurant.zipcode;
+
+console.log(fullAddress);
