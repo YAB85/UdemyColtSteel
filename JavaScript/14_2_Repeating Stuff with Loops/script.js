@@ -45,7 +45,7 @@ console.log(arr); */
     }
   }
 } */
-let str = "";
+/* let str = "";
 
 for (let i = 0; i < 8; i++) {
   str += "#";
@@ -57,4 +57,70 @@ let num = 0;
 while (num < 10) {
   console.log(num);
   num++;
+} */
+
+/* let maximum = +prompt("Enter the maximum number!");
+while (!maximum) {
+  maximum = +prompt("Enter a valid number!");
 }
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+
+let guess = +prompt("Enter your first guess!");
+
+let attemps = 1;
+
+while (+guess !== targetNum) {
+  if (guess === "q") break;
+  attemps++;
+  if (guess > targetNum) {
+    guess = prompt("Too high! Enter a new guess:");
+  } else {
+    guess = prompt("Too low! Enter a new guess:");
+  }
+}
+if (+guess === "q") {
+  console.log("Ok, you quit!");
+} else {
+  console.log(`You got a number by ${attemps} guess`);
+} */
+
+//console.log(targetNum);
+/* while (maximum) {
+  if (!maximum) {
+  }
+} */
+
+/* const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let num of numbers) {
+  console.log(num);
+} */
+
+const testScores = {
+  keenan: 80,
+  damon: 67,
+  kim: 89,
+  shawn: 91,
+  marlon: 72,
+  dwayne: 77,
+  nadia: 83,
+  elvira: 97,
+  diedre: 81,
+  vonnie: 60,
+};
+
+/* for (let person in testScores) {
+  console.log(`${person} : ${testScores[person]}`);
+}
+ */
+
+let total = 0;
+let scores = Object.values(testScores);
+
+for (let score of scores) {
+  total += score;
+  //total / testScores.length;
+}
+
+console.log(total / scores.length);
