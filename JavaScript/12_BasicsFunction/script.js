@@ -114,7 +114,6 @@ console.log(test2(40)); */
     return num % 2 === 0;
 }   */
 
-
 /****factorial */
 
 /* function factorial (num) {
@@ -139,7 +138,7 @@ function factorial (num) {
     //return the result variable
     return result;
 } */
-//factorial (4)  4 x 3 x 2 x 1 
+//factorial (4)  4 x 3 x 2 x 1
 
 /*******kebabToSnake */
 
@@ -191,10 +190,123 @@ console.log(doMath()); */
 
 /******Higher Order Functions */
 
-
-function singSong() {
+/* function singSong() {
     console.log("Twinkle, twinkle, little star,");
     console.log("How I wonder what you are!");    
 }
 
-setInterval(singSong, 1000);
+setInterval(singSong, 1000); */
+
+/* function printHeart() {
+  console.log("<3");
+}
+
+printHeart();
+
+function greet(name) {
+  console.log(`Hi ${name}`);
+}
+
+const newName = "Peter";
+
+greet(newName); */
+
+/* function rant(message) {
+  console.log(message.toUpperCase());
+  console.log(message.toUpperCase());
+  console.log(message.toUpperCase());
+}
+
+rant("I hate beets");
+
+function repeat(str, numTimes) {
+  let result = " ";
+  for (let i = 0; i < numTimes; i++) {
+    result += str;
+  }
+}
+repeat("Hi", 5);
+console.log(result); */
+
+/* function isSnakeEyes(x, y) {
+  if (x === 1 && y === 1) {
+    console.log(`Snake Eyes!`);
+  } else {
+    console.log(`Not Snake Eyes!`);
+  }
+}
+
+isSnakeEyes(2, 2); */
+
+function multiply(x, y) {
+  return x * y;
+}
+
+function isShortsWeather(temperature) {
+  if (temperature >= 75) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isShortsWeather(80));
+console.log(isShortsWeather(75));
+console.log(isShortsWeather(74));
+
+function lastElement(arr) {
+  if (arr[arr.length - 1] === undefined) {
+    return null;
+  }
+  return arr[arr.length - 1];
+}
+
+lastElement([1, 2]);
+lastElement([1]);
+lastElement([]);
+
+function capitalize(str) {
+  let strCap;
+  strCap = str.replace(str[0], str[0].toUpperCase());
+  return strCap.toString();
+}
+
+let word = "eggplant";
+
+console.log(capitalize(word));
+
+function sumArray(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
+}
+
+console.log(sumArray([1, 2, 3]));
+console.log(sumArray([2, 2, 2, 2]));
+console.log(sumArray([50, 50, 1]));
+
+function returnDay(day) {
+  if (day === 1) {
+    return "Monday";
+  } else if (day === 2) {
+    return "Tuesday";
+  } else if (day === 3) {
+    return "Wednesday";
+  } else if (day === 4) {
+    return "Thursday";
+  } else if (day === 5) {
+    return "Friday";
+  } else if (day === 6) {
+    return "Saturday";
+  } else if (day === 7) {
+    return "Sunday";
+  } else {
+    return null;
+  }
+}
+
+let days = 8;
+
+console.log(returnDay(days));
