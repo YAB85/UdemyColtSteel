@@ -24,7 +24,7 @@ console.log(msg); */
 
 /***********Lexical Scope******** */
 
-function bankRobbery() {
+/* function bankRobbery() {
   const heroes = ["Spiderman", "Wolverine", "Black Panther"];
   function cryForHelp() {
     for (let hero of heroes) {
@@ -34,7 +34,7 @@ function bankRobbery() {
   cryForHelp();
 }
 
-console.log(bankRobbery());
+console.log(bankRobbery()); */
 
 /* ********** Function expressions ************** */
 
@@ -114,7 +114,7 @@ console.log(myMath.square(3));
 console.log(myMath.cube(3));
  */
 
-const square = {
+/* const square = {
   area(side) {
     return side * side;
   },
@@ -124,4 +124,36 @@ const square = {
 };
 
 console.log(square.area(10));
-console.log(square.perimeter(10));
+console.log(square.perimeter(10)); */
+/* 
+const person = {
+  name: `Blue Steel`,
+  color: `grey`,
+  breed: `scotish fold`,
+  meow() {
+    console.log(this.color);
+  }
+};
+
+const hen = {
+  name: `Helen`,
+  eggCount: 0,
+  layAnEgg() {
+    this.eggCount += 1;
+    return `EGG`;
+  }
+}; */
+
+try {
+  hello.toUpperCase();
+} catch {
+  console.log(`wrong`);
+}
+
+function yell(msg) {
+  try {
+    console.log(msg.toUpperCase().repeat(3));
+  } catch (e) {
+    console.log(`Please pass the string next time!`);
+  }
+}
