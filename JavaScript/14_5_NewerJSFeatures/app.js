@@ -7,5 +7,3 @@ function rollDie(numSides = 6) {
 function greet(msg = "Hey", person = "Hey, there", mark = "!") {
   console.log(`${person} ${msg} ${mark}`);
 }
-console.log(`dsasdsda`);
-fdsfsdfsdrfs;
