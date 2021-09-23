@@ -1,0 +1,17 @@
+.some-class {
+    color: blue;
+    border: 10px solid red;
+}
+
+.another-class {
+    color: purple;
+    font-size: 76px;
+}
+
+button {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    left: 10px;
+}
